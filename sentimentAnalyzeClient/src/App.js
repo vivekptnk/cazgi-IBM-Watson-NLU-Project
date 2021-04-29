@@ -58,7 +58,7 @@ class App extends React.Component {
         textColor  = "green";
       } else if (response.data === "negative" ){
         textColor = "red";
-      } else if (response.data === "netural"){
+      } else if (response.data === "neutral"){
         textColor = "yellow";
       }
 
